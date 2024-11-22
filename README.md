@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# Allshremote 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An Android application built with React Native that turns your device into a versatile remote control using its infrared emitter.
 
 ## Get started
 
@@ -13,38 +13,23 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-    npx expo start
+    npm run android
    ```
 
-In the output, you'll find options to open the app in a
+## Remotes available
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Currently, this app includes remote control commands for the following devices:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Magcubic HY320
 
-## Get a fresh project
+More devices are expected to be added. Contributions are welcome.
 
-When you're ready, run:
+## Contribute to the project
 
-```bash
-npm run reset-project
-```
+Contributions are very welcome, specially regarding new devices and features
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### iOS Devices Not Supported
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+While the application includes iOS-specific code, it is not functional on iOS devices due to the lack of IR blasters.
