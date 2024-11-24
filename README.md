@@ -2,6 +2,17 @@
 
 An Android application built with React Native that turns your device into a versatile remote control using its infrared emitter.
 
+<div align="center">
+   <img width="300" alt="Captura de Tela 2024-11-24 às 16 48 15" src="https://github.com/user-attachments/assets/5e5577d2-eace-4e10-b02d-862e7ed4db5e">
+</div>
+
+## Features
+
+- Device selector
+- Structured for seamless addition of new devices without extensive reconfiguration
+- Supports dark/light theme
+- Supports addition of advanced/non-standard commands
+
 ## Get started
 
 1. Install dependencies
