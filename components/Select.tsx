@@ -72,7 +72,7 @@ export function Select({ search, options, onSelect }: SelectProps) {
   return (
     <SelectDropdown
       onSelect={(entry, index) => onSelect(entry.value, index)}
-      search={search}
+      search={search || undefined}
       data={options}
       renderButton={(selectedItem, isOpened) => {
         return (
