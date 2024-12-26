@@ -35,6 +35,12 @@ Currently, this app includes remote control commands for the following devices:
 
 More devices are expected to be added. Contributions are welcome.
 
+## Libraries and tools used
+
+- [allan-alb/react-native-infrared-interface](https://www.npmjs.com/package/react-native-infrared-interface): A library for enabling infrared communication, allowing the app to send remote control commands.
+- [zustand](https://zustand.docs.pmnd.rs/getting-started/introduction): A state management library for managing the application's global state in a simple and scalable way.
+- [react-native-reanimated](https://www.npmjs.com/package/react-native-reanimated): A powerful animation library for creating smooth animations in React Native.
+
 ## Contribute to the project
 
 Contributions are very welcome, specially regarding new devices and features
@@ -43,4 +49,4 @@ Contributions are very welcome, specially regarding new devices and features
 
 ### iOS Devices Not Supported
 
-While the application includes iOS-specific code, it is not functional on iOS devices due to the lack of IR blasters.
+While the application includes iOS-specific code, the app is not functional on iOS devices due to the lack of IR blasters.
